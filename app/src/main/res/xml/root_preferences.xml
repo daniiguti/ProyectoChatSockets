@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Diseño">
+
+    </PreferenceCategory>
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/temas"
+        android:entryValues="@array/temas"
+        android:key="preferences_tema"
+        android:title="Seleccionar tema" />
+</PreferenceScreen>
